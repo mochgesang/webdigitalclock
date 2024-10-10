@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #282c34;
+    font-family: 'Arial', sans-serif;
+}
+
+.clock-container {
+    background-color: #1a1a1a;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+#clock {
+    font-size: 60px;
+    letter-spacing: 2px;
+}
+
+#hours {
+    color: #ff6347; /* Warna merah (Tomato) untuk jam */
+}
+
+#minutes {
+    color: #32cd32; /* Warna hijau (LimeGreen) untuk menit */
+}
+
+#seconds {
+    color: #1e90ff; /* Warna biru (DodgerBlue) untuk detik */
+}
